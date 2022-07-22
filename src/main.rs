@@ -219,6 +219,5 @@ fn chargeback(
 }
 
 fn clamp(f: f64) -> f64 {
-    // Assuming truncate to help prevent possibility of skimming
-    (f * 10_000.0).floor() / 10_000.0
+    (f * 10_000.0).round() / 10_000.0
 }
