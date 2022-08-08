@@ -1,12 +1,14 @@
 [package]
 name = "uosckjwncs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 csv = "1.1.6"
+lazy_static = "1.4.0"
+regex = "1.6.0"
+rust_decimal = { version = "1.26.1", features = ["maths"] }
+rust_decimal_macros = "1.26"
 
 # :)
 # [profile.dev]
